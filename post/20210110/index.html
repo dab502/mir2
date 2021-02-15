@@ -1,0 +1,353 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>20210110暗黑佣兵--一共十二大陆.攻次每次.佣兵.爽到嗨，带攻击次数，魔法次数，范围攻击，佣兵可带装备，可学习技能，可解锁天赋被动。前期建议主号为道士(土豪可选主号法师)+法师群雷佣兵，佣兵建议洗出群雷+盾+灭天火。暗黑四大神器，修仙晋升渡劫系统，煞神苍穹，荒古魂器，五行系统，技能强化，时装副本任务，装备可鉴定，可重置品质，可强化，可开光，!..... | 白嫖传奇</title>
+
+<link rel="shortcut icon" href="https://dab502.github.io/mir2//favicon.ico?v=1613379891921">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://dab502.github.io/mir2//styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<style>
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <style>
+    /* 导航栏样式 */
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+        text-decoration: none;
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+
+    .navbar-toggler:hover,
+    .navbar-toggler:focus {
+        text-decoration: none;
+    }
+
+    @media (min-width: 992px) {
+        .navbar-expand-lg {
+            -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+        }
+
+        .navbar-expand-lg .navbar-nav {
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+
+        .navbar-expand-lg .navbar-collapse {
+            display: -ms-flexbox !important;
+            display: flex !important;
+            -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+        }
+
+        .navbar-expand-lg .navbar-toggler {
+            display: none;
+        }
+    }
+
+    @media (max-width: 991px) {
+        #navbarSupportedContent {
+            display: none;
+        }
+    }
+</style>
+<nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            白嫖传奇
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://yunpan.360.cn/surl_yuQb3mZucTJ" class="menu gt-a-link" target="_blank">
+                    登录器①
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1613379891921"
+                action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = function () {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    20210110暗黑佣兵--一共十二大陆.攻次每次.佣兵.爽到嗨，带攻击次数，魔法次数，范围攻击，佣兵可带装备，可学习技能，可解锁天赋被动。前期建议主号为道士(土豪可选主号法师)+法师群雷佣兵，佣兵建议洗出群雷+盾+灭天火。暗黑四大神器，修仙晋升渡劫系统，煞神苍穹，荒古魂器，五行系统，技能强化，时装副本任务，装备可鉴定，可重置品质，可强化，可开光，!.....
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-01-10 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <h1 id="白嫖领顶赞0元下图领取所有礼包绝无隐藏所有装备全爆不出售任何装备物品和材料等每一个版本开放时长为1个月">白嫖领顶赞.0元下图.领取所有礼包.绝无隐藏！所有装备全爆.不出售任何装备物品和材料等.每一个版本开放时长为1个月</h1>
+<h1 id="每一个版本开放时长为1个月">每一个版本开放时长为1个月.</h1>
+<h1 id="免费自动全屏范围拾取-怪死装备秒进背包自动回收自动挂机打怪">免费自动全屏范围拾取 怪死装备秒进背包.自动回收.自动挂机打怪</h1>
+<h1 id="全自动修理装备元宝20亿全自动兑换货币防止爆零全屏吸怪自动吸怪">全自动修理装备.元宝20亿.全自动兑换货币.防止爆零.全屏吸怪.自动吸怪</h1>
+<h1 id="怪物刷新速度提高100倍打任意怪随机增加几百万元宝元宝可兑换一切全部皆可白嫖">怪物刷新速度提高100倍，打任意怪随机增加几百万元宝.元宝可兑换一切.全部皆可白嫖</h1>
+<p><strong>进服第一件事</strong>**.根据聊天框提示.找到快捷功能图标.然后去兑换为你想要的各种货币.**</p>
+<p><strong>神魂光环</strong> 带<strong>传送</strong>属性. 土城合成 商铺买材料</p>
+<p>不同境界封号必须打不同的怪才能增加修为值，修为值不加的换个地图打<br>
+武者 修道 仙尊 化神 在 幻境1到9层 打怪增加修炼值，其他地图需要自己测试<br>
+大罗祖仙 永恒帝君 在 屠龙殿(幻境九层 149,103进) 打怪增加修炼值，其他地图需要自己测试</p>
+<p>[境界-铸魔] 以前 打环境怪.6层 8层最好.</p>
+<p>[境界-铸魔] -大罗祖仙-永恒帝君-仙尊 环境9层 10</p>
+<p>你也可以在土后边 积分商城 购买 修炼丹</p>
+<p>每个境界满了之后、商铺里面购买 晋级丹 10级 之后 再买 渡劫丹</p>
+<p>升级。到土城下面对应的等级地图打 升级超快。 吃3倍经验哦</p>
+<p>土城升级 称号 光环 带摩次攻次 范围 一个刺杀都可以满屏攻击</p>
+<p>亡灵信物 <strong>2大陆升级 升到10级之后 有几率 召唤出1-10个超级亡灵 秒99%怪</strong></p>
+<p>法宝全部强化到10级 就有<strong>防冰冻</strong> 背包里面强化</p>
+<p>以下攻略只为新手解释：</p>
+<p>新手出身地的领取加群礼包和佣兵，有送A级佣兵，右键佩戴即可，如果佣兵界面的属性为0，则建议解雇一下再右键佩戴，不然佣兵少很多属性</p>
+<p>如果对的佣兵的职业和品质不满意，可以解雇后在背包，再重新佩戴即可，可以这样反复操作 刷新佣兵的职业和品质</p>
+<p>回馈领取的佣兵如果需要鉴定，飞个安全的地方，丢地上再捡起来即可自动鉴定，记住一定要保持背包负重够，不然捡不起来，自行负责</p>
+<p>关于佣兵<br>
+1、新手上线后先创建佣兵，第一步点开输入佣兵的名字.</p>
+<p>2、领取二次礼包会给一些起步装备</p>
+<p>3、佣兵的装备设置：背包右下角有佣兵的背包，吧装备放进去，右键装备即可给佣兵穿戴装备，千万记住别双击</p>
+<p>4、佣兵的技能设置，背包右下角打开佣兵界面，选择技能类，鼠标点击技能即可关闭佣兵的垃圾技能。</p>
+<p>前期佣兵很给力，佣兵锁定方法：CTRL键+W键， 是锁定怪物</p>
+<p>佣兵品质最好的是至尊，最好的职业是大剑士（战士）-大魔导师（法师）-大巫师（道士）</p>
+<p>佣兵级别划分：<br>
+佣兵品质 ：至尊最好 普通--良好--优秀--非凡--稀有--卓越--至尊</p>
+<p>前期建议主号为道士(土豪可选主号法师)+法师群雷佣兵，佣兵建议洗出群雷+盾+灭天火，其他技能看自己意愿</p>
+<p>被动技能很强大，可考虑洗出连击+麻痹类型的技能，打BOSS必备，更好的被动技能自行领悟</p>
+<p>战士佣兵就不用说了 就那么几个技能 有彻地钉</p>
+<p>法师佣兵：主动技能 建议 魔法盾+灭天火+群雷，升级的时候 就这3个，打BOS的时候 关闭群雷 只要魔法盾和灭天火即可（佣兵界面，技能界<br>
+面，点技能即可关闭不要的技能）</p>
+<p>道士佣兵：月灵很强悍，散人玩家首选，主号可找骷髅 神兽 月灵 战宠 道士主号可全部一起招，道士佣兵技能建议 嗜血+火符+月灵+毒 其他随便</p>
+<p>被动技能：所有佣兵通用：嗜血2个（2个不一样的几率才能触发）+连击+重击+蛮力+麻痹或者定身类型的1个+狂化+雷霆+致命+暴击+魔次<br>
+被动就这些 根据个人喜好 嗜血一定要，麻痹定身类型必要，其他被动参考上面的 打怪嗷嗷爽</p>
+<p>新手升级问题：幻境3层 6层，有能力的可以在商铺买3倍经验卷，能抗的时候直接下环境8</p>
+<p>然后自身血有几万后，就直接下幻境8-9-10，隐身飞随机，让你的法师群雷佣兵打，升级很快</p>
+<p>注意 转身即就是境界修为，进后面大陆必须的称号就是这个境界修为，所以前期必做的<br>
+在幻境打的时候，顺便可以吧转身转了，转身方法，在幻境打怪可以涨修为，然后商铺买武者进阶丹，对应。双击即可 当达到10阶后即可在商<br>
+铺购买武者渡劫丹，双击渡劫 即可完成最终转身。依次类推。修为值的多少查看 鼠标移动到人物头像上即可显示修为多少<br>
+当前境界为：化神 晋升到下一境界则需要条件：铸魔渡劫丹<em>1+修炼值<br>
+当前境界为：铸魔 晋升到下一境界则需要条件：大罗祖仙渡劫丹</em>1+修炼值<br>
+当前境界为：大罗祖仙 晋升到下一境界则需要条件：永恒帝君渡劫丹<em>1+修炼值<br>
+当前境界为：永恒帝君 晋升到下一境界则需要条件：至尊掌控者渡劫丹</em>1+修炼值</p>
+<p>后期的修为在幻境9-10打</p>
+<p>从幻境10出来后，差不多也就70-80级别了+2转。装备也不错了，有能力的可以吧装备强化+10，这样自身的血也就有几百万了吧，。顺便吧佣兵的装<br>
+备也搞搞，然后就下V5或者V10打BOSS，配合3倍经验卷，升级很快 打的元宝可以在土城上方货币NPC处兑换会员币，升级会员到V10</p>
+<p>当你的战力达到一定阶段的时候可以去战力地图升级，也不错。打BOSS首选</p>
+<p><img src="https://s.pc.qq.com/tousu/img/20210109/9949768_1610201086.jpg" alt="QQ截图20210109220328.png" title="QQ截图20210109220328.png" loading="lazy"> <img src="https://s.pc.qq.com/tousu/img/20210109/7760129_1610201086.jpg" alt="QQ截图20210109220338.png" title="QQ截图20210109220338.png" loading="lazy"> <img src="https://s.pc.qq.com/tousu/img/20210109/1077044_1610201085.jpg" alt="QQ截图20210109220347.png" title="QQ截图20210109220347.png" loading="lazy"> <img src="https://s.pc.qq.com/tousu/img/20210109/1472970_1610201081.jpg" alt="QQ截图20210109220320.png" title="QQ截图20210109220320.png" loading="lazy"> <img src="https://s.pc.qq.com/tousu/img/20210109/1857543_1610201077.jpg" alt="QQ截图20210109220307.png" title="QQ截图20210109220307.png" loading="lazy"> <img src="https://s.pc.qq.com/tousu/img/20210109/6530088_1610201076.jpg" alt="QQ截图20210109220355.png" title="QQ截图20210109220355.png" loading="lazy"> <img src="https://s.pc.qq.com/tousu/img/20210109/6135965_1610201076.jpg" alt="QQ截图20210109220402.png" title="QQ截图20210109220402.png" loading="lazy"> <img src="https://s.pc.qq.com/tousu/img/20210109/2373396_1610201143.jpg" alt="13.png" title="13.png" loading="lazy">s</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://dab502.github.io/mir2/post/20210106/" class="post-title gt-a-link">
+                    20210106死神超变--二十二大陆.上线全属性+99999999999.[游戏特色]独创打怪模式，全图刷BOSS，激情耐玩。拒绝一夜情玩家。发家致富请来永恒界.[游戏特色]一切装备全爆靠打,爆率超合理
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">白嫖领顶赞.0元下图.领取所有礼包.绝无隐藏！所有装备全爆.不出售任何装备物品和材料等.每一个版本开放时长为1个月.每一个版本开放时长为1个月.免费自动全屏范围拾取 怪死装备秒进背包.自动回收.自动挂机打怪.全自动修理装备.元宝20亿.全自动兑换货币.防止爆零.全屏吸怪.自动吸怪.怪物刷新速度提高100倍，打任意怪随机增加几百万元宝.元宝可兑换一切.全部皆可白嫖</div>
+    <div class="social-container">
+        
+            
+                <a href="https://www.lanzous.com/b196495/" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://www.lanzous.com/b196495/" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://www.lanzous.com/b196495/" target="_blank">
+                    <i class="fab fa-weibo gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://www.lanzous.com/b196495/" target="_blank">
+                    <i class="fab fa-zhihu gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://www.lanzous.com/b196495/" target="_blank">
+                    <i class="fab fa-dribbble gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://www.lanzous.com/b196495/" target="_blank">
+                    <i class="fab fa-facebook gt-c-content-color-first"></i>
+                </a>
+            
+        
+    </div>
+    <div class="footer-info">
+        白嫖领顶赞.0元下图.领取所有礼包.绝无隐藏！所有装备全爆.不出售任何装备物品和材料等.每一个版本开放时长为1个月.每一个版本开放时长为1个月.免费自动全屏范围拾取 怪死装备秒进背包.自动回收.自动挂机打怪.全自动修理装备.元宝20亿.全自动兑换货币.防止爆零.全屏吸怪.自动吸怪.怪物刷新速度提高100倍，打任意怪随机增加几百万元宝.元宝可兑换一切.全部皆可白嫖
+    </div>
+    <div>
+    
+	</div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+<script language="javascript" type="text/javascript" src="/dddd.js"></script>
+<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279325880'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/stat.php%3Fid%3D1279325880%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+</html>
